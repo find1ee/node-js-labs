@@ -1,0 +1,20 @@
+{
+  "name": "lab-01",
+  "version": "1.0.0",
+  "description": "Лабораторна робота 1. Асинхронна обробка даних у TypeScript",
+  "private": true,
+  "main": "dist/async-utils.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "test": "npm run build && node --test --test-reporter=spec test/async-utils.test.mjs"
+  },
+  "keywords": [],
+  "author": "Сокирко Владислав Володимирович, ІПЗ-23-4",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "typescript": "^7.0.2"
+  }
+}
